@@ -8,7 +8,7 @@ const SBC_DATA = {
         { name: "MSA-S /MSA-LS", img: "../images/MSA-S.MSA-LS.jpg" },
         { name: "MSA-A / MSA-LA", img: "../images/MSA.MSA-LA.jpg" },
         { name: "MSA-E /MSA-LE", img: "../images/MSA.MSA-LA.jpg" },
-        { name: "MSB-TS/MSB-S", img: "../images/MSB-TS.MSB-S.jpg" },
+        { name: "MSB-TS/MSB-S", img: "../images/MSB-TSMSB-S.jpg" },
         { name: "MSB-TE/MSB-E", img: "../images/MSB-TEMSB-E.jpg" },
         { name: "MSR-S/MSR-LS", img: "../images/MSR-S.MSR-LS.jpg" },
         { name: "MSR-S/MSR-LE", img: "../images/MSR-S.MSR-LS.jpg" },

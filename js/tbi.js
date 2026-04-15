@@ -5,14 +5,14 @@
 // 1. 제품 데이터베이스
 const SBC_DATA = {
     lm_guide: [
-        { name: "LM가이드 표준형 TRH-V타입", img: "../images/MSB-TS.MSB-S.JPG" },
+        { name: "LM가이드 표준형 TRH-V타입", img: "../images/MSB-TSMSB-S.JPG" },
         { name: "LM가이드 표준형 TRH-F타입", img: "../images/MSB-TEMSB-E.jpg" },
         { name: "LM가이드 표준형 TRS-V타입", img: "../images/SBI-HL.HLL.jpg" },
-        { name: "LM가이드 레일 - 표준형 TR타입", img: "../images/MSB-TS.MSB-S.JPG" }
+        { name: "LM가이드 레일 - 표준형 TR타입", img: "../images/MSB-TSMSB-S.JPG" }
     ],
     ball_screw: [
-        { name: "SFS시리즈-전조볼스크류", img: "../images/sfs.jpg" },
-        { name: "SFI시리즈-전조볼스크류", img: "../images/sfi.jpg" },
+        { name: "SFS시리즈-전조볼스크류", img: "../images/SFS.jpg" },
+        { name: "SFI시리즈-전조볼스크류", img: "../images/SFI.jpg" },
         { name: "STK시리즈-전조볼스크류", img: "../images/stk2.jpg" },
         { name: "SFY시리즈-전조볼스크류", img: "../images/sfy.jpg" }
     ]

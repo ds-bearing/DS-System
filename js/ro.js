@@ -5,14 +5,14 @@
 // 1. 제품 데이터베이스
 const SBC_DATA = {
     lm_guide: [
-    { name: "KZM", img: "../images/KZM.jpg" },
-    { name: "KZMT", img: "../images/KZMT.jpg" },
-    { name: "KZMV", img: "../images/KZMV.jpg" },
-    { name: "DCN", img: "../images/DCN.jpg" },
-    { name: "KSNA", img: "../images/KSNA.jpg" },
-    { name: "KZMF", img: "../images/KZMF.jpg" },
-    { name: "AN", img: "../images/AN.jpg" },
-    { name: "DN", img: "../images/DN.jpg" },
+    { name: "KZM", img: "../images/kzm.jpg" },
+    { name: "KZMT", img: "../images/kzmt.jpg" },
+    { name: "KZMV", img: "../images/kzmv.jpg" },
+    { name: "DCN", img: "../images/dcn.jpg" },
+    { name: "KSNA", img: "../images/ksna.jpg" },
+    { name: "KZMF", img: "../images/kzmf.jpg" },
+    { name: "AN", img: "../images/an.jpg" },
+    { name: "DN", img: "../images/dn.jpg" },
     { name: "TWIN FU-NUT", img: "../images/twinfu-nut.jpg" },
     { name: "FINE U-NUT", img: "../images/fineu-nut.jpg" },
     { name: "육각 U-NUT", img: "../images/u-nut.jpg" },
@@ -20,18 +20,18 @@ const SBC_DATA = {
     
     ],
     ball_screw: [
-    { name: "ZMG", img: "../images/ZMG.jpg" },
-    { name: "ZMVG", img: "../images/ZMVG.jpg" },
-    { name: "UZMG", img: "../images/UZMG.jpg" },
-    { name: "ZMFG", img: "../images/ZMFG.jpg" },
-    { name: "UZMVG", img: "../images/UZMVG.jpg" },
-    { name: "UZMFG", img: "../images/UZMFG.jpg" },
-    { name: "UBGN-A", img: "../images/UBGN-A.jpg" },
-    { name: "UKANG", img: "../images/UKANG.jpg" },
-    { name: "UBGN-B", img: "../images/UBGN-B.jpg" },
-    { name: "UBGN-C", img: "../images/UBGN-C.jpg" },
-    { name: "UBGN-D", img: "../images/UBGN-D.jpg" },
-    { name: "UBGN-E", img: "../images/UBGN-E.jpg" }
+    { name: "ZMG", img: "../images/zmg.jpg" },
+    { name: "ZMVG", img: "../images/zmvg.jpg" },
+    { name: "UZMG", img: "../images/uzmg.jpg" },
+    { name: "ZMFG", img: "../images/zmfg.jpg" },
+    { name: "UZMVG", img: "../images/uzmvg.jpg" },
+    { name: "UZMFG", img: "../images/uzmfg.jpg" },
+    { name: "UBGN-A", img: "../images/ubgn-a.jpg" },
+    { name: "UKANG", img: "../images/ukang.jpg" },
+    { name: "UBGN-B", img: "../images/ubgn-b.jpg" },
+    { name: "UBGN-C", img: "../images/ubgn-c.jpg" },
+    { name: "UBGN-D", img: "../images/ubgn-d.jpg" },
+    { name: "UBGN-E", img: "../images/ubgn-e.jpg" }
     ]
 };
 

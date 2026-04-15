@@ -5,21 +5,21 @@
 // 1. 제품 데이터베이스
 const SBC_DATA = {
     lm_guide: [
-        { name: "DHRA", img: "../images/DHRA.jpg" },
-    { name: "DHDA-A", img: "../images/DHDA-A.jpg" },
-    { name: "DRB", img: "../images/DRB.jpg" },
-    { name: "DRB-SUS", img: "../images/DRB-SUS.jpg" },
-    { name: "DRBS-SUS", img: "../images/DRBS-SUS.jpg" },
-    { name: "DOH", img: "../images/DOH.jpg" },
-    { name: "DJC", img: "../images/DJC.jpg" },
-    { name: "DJCS", img: "../images/DJCS.jpg" },
-    { name: "DRJT", img: "../images/DRJT.jpg" },
-    { name: "DRG", img: "../images/DRG.jpg" },
-    { name: "DRGL", img: "../images/DRGL.jpg" },
-    { name: "DRS | DRW | DRA", img: "../images/DRSDRWDRA.jpg" },
-    { name: "Set Collars", img: "../images/SetCollars.jpg" },
-    { name: "DRJ | DRP", img: "../images/DRJDRP.jpg" },
-    { name: "DRFC", img: "../images/DRFC.jpg" }
+        { name: "DHRA", img: "../images/dhra.jpg" },
+    { name: "DHDA-A", img: "../images/dhda-a.jpg" },
+    { name: "DRB", img: "../images/drb.jpg" },
+    { name: "DRB-SUS", img: "../images/drb-sus.jpg" },
+    { name: "DRBS-SUS", img: "../images/drbs-sus.jpg" },
+    { name: "DOH", img: "../images/doh.jpg" },
+    { name: "DJC", img: "../images/djc.jpg" },
+    { name: "DJCS", img: "../images/djcs.jpg" },
+    { name: "DRJT", img: "../images/drjt.jpg" },
+    { name: "DRG", img: "../images/drg.jpg" },
+    { name: "DRGL", img: "../images/drgl.jpg" },
+    { name: "DRS | DRW | DRA", img: "../images/drsdrwdra.jpg" },
+    { name: "Set Collars", img: "../images/setcollars.jpg" },
+    { name: "DRJ | DRP", img: "../images/drjdrp.jpg" },
+    { name: "DRFC", img: "../images/drfc.jpg" }
     ],
     ball_screw: [
         { name: "DRDA-A", img: "../images/drda-a.jpg" },

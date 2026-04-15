@@ -5,26 +5,26 @@
 // 1. 제품 데이터베이스
 const SBC_DATA = {
     lm_guide: [
-    { name: "DR200", img: "../images/DR200.jpg" },
-    { name: "DR300", img: "../images/DR300.jpg" },
-    { name: "DR300C", img: "../images/DR300C.jpg" },
-    { name: "DR300F", img: "../images/DR300F.jpg" },
-    { name: "DR300EF", img: "../images/DR300EF.jpg" },
-    { name: "DR110", img: "../images/DR110.jpg" },
-    { name: "DR132", img: "../images/DR132.jpg" },
-    { name: "DR133", img: "../images/DR133.jpg" },
-    { name: "DR132A", img: "../images/DR132A.jpg" },
-    { name: "DR133B", img: "../images/DR133B.jpg" },
-    { name: "DR134S", img: "../images/DR134S.jpg" },
-    { name: "DR400", img: "../images/DR400.jpg" },
-    { name: "DR500", img: "../images/DR500.jpg" },
-    { name: "DR603", img: "../images/DR603.jpg" },
-    { name: "MAD", img: "../images/MAD.jpg" },
-    { name: "MAS", img: "../images/MAS.jpg" },
-    { name: "MASUS", img: "../images/MASUS.jpg" },
-    { name: "DRAP", img: "../images/DRAP.jpg" },
-    { name: "DRMC", img: "../images/DRMC.jpg" },
-    { name: "DR120", img: "../images/DR120.jpg" }
+    { name: "DR200", img: "../images/dr200.jpg" },
+    { name: "DR300", img: "../images/dr300.jpg" },
+    { name: "DR300C", img: "../images/dr300C.jpg" },
+    { name: "DR300F", img: "../images/dr300F.jpg" },
+    { name: "DR300EF", img: "../images/dr300EF.jpg" },
+    { name: "DR110", img: "../images/dr110.jpg" },
+    { name: "DR132", img: "../images/dr132.jpg" },
+    { name: "DR133", img: "../images/dr133.jpg" },
+    { name: "DR132A", img: "../images/dr132A.jpg" },
+    { name: "DR133B", img: "../images/dr133B.jpg" },
+    { name: "DR134S", img: "../images/dr134S.jpg" },
+    { name: "DR400", img: "../images/dr400.jpg" },
+    { name: "DR500", img: "../images/dr500.jpg" },
+    { name: "DR603", img: "../images/dr603.jpg" },
+    { name: "MAD", img: "../images/mad.jpg" },
+    { name: "MAS", img: "../images/mas.jpg" },
+    { name: "MASUS", img: "../images/masus.jpg" },
+    { name: "DRAP", img: "../images/drap.jpg" },
+    { name: "DRMC", img: "../images/drmc.jpg" },
+    { name: "DR120", img: "../images/dr120.jpg" }
     ]
 };
 

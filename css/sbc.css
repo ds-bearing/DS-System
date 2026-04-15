@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 80px;
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #fff;
+}
+
+/* 히어로 섹션 */
+.hero {
+  height: 250px;
+  background: url("../images/jpmbg.jpg") no-repeat center/cover;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.3);
+}
+
+/* 컨테이너 */
+.jp-container { max-width: 1100px; margin: 50px auto; padding: 0 20px; }
+
+/* 타이틀 스타일 */
+.jp-category-header { text-align: center; margin-bottom: 30px; }
+.jp-category-title { color: #1a5d1a; font-size: 32px; font-weight: 700; }
+.jp-category-subtitle {
+    color: #888;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+
+/* 브랜드/품목 필터 버튼 */
+.jp-brand-filter { 
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+  padding: 25px 0; 
+  border-top: 3px solid #1a5d1a;    
+  border-bottom: 3px solid #1a5d1a; 
+  background-color: #fafafa;
+}
+.jp-brand-item { 
+    background: #fff; border: 1px solid #eee; padding: 12px; width: 130px; 
+    cursor: pointer; transition: all 0.3s ease; display: flex; flex-direction: column; align-items: center;
+}
+.jp-brand-item img { width: 100%; height: auto; margin-bottom: 8px; filter: grayscale(100%); opacity: 0.5; transition: 0.3s; }
+.jp-brand-item span { font-size: 12px; color: #888; font-weight: 500; word-break: keep-all; }
+
+/* 필터 버튼 활성화(On) 상태 */
+.jp-brand-item.jp-on { border-color: #1a5d1a; background: #f9fff9; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+.jp-brand-item.jp-on img { filter: grayscale(0%); opacity: 1; }
+.jp-brand-item.jp-on span { color: #1a5d1a; font-weight: 700; }
+
+/* 제품 그리드 */
+.jp-product-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; min-height: 400px; transition: opacity 0.3s ease; }
+
+/* 제품 카드 (전체 영역 오버레이 적용을 위해 수정) */
+.jp-product-card { 
+  border: 2px solid #dde3ea62; 
+  border-color: #888888a2;
+  transition: 0.3s; 
+  background: #fff; 
+  overflow: hidden; 
+  display: block; 
+  text-decoration: none; 
+  position: relative; /* 자식 요소인 오버레이의 기준점 */
+}
+
+/* 사진 박스 */
+.jp-product-img-box {
+    width: 100%;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #f5f5f5;
+    background-color: #fff;
+    overflow: hidden; 
+}
+.jp-product-img {
+    width: 85%;
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.4s ease-in-out; 
+}
+
+/* 제품 정보 영역 */
+.jp-product-info { padding: 15px; text-align: center; display: flex; align-items: center; justify-content: center; min-height: 70px; }
+.jp-product-name { font-size: 13px; color: #333; font-weight: 600; margin: 0; word-break: keep-all; line-height: 1.4; }
+
+/* =========================================
+   [수정됨] 카드 전체를 덮는 다운로드 오버레이
+   ========================================= */
+.download-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* 카드 전체 높이를 덮음 */
+    background: rgba(0, 0, 0, 0.6); /* 약간 더 짙은 반투명 검정 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* 평소 숨김 */
+    transition: opacity 0.3s ease;
+    z-index: 10; /* 가장 위로 올림 */
+}
+
+.download-overlay span {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px; /* 글씨 크기 약간 키움 */
+    border: 2px solid #fff; /* 테두리 두께 조절 */
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    background: rgba(255, 255, 255, 0.1); /* 버튼 안쪽 살짝 밝게 */
+}
+
+/* 마우스를 올렸을 때 효과 */
+@media (hover: hover) {
+    .jp-product-card:hover { 
+        border-color: #1a5d1a; 
+        transform: translateY(-5px); 
+        box-shadow: 0 8px 15px rgba(0,0,0,0.15); 
+    }
+    
+    /* 카드에 마우스 올리면 전체 오버레이 등장 */
+    .jp-product-card:hover .download-overlay {
+        opacity: 1;
+    }
+    
+    /* 이미지 살짝 확대 */
+    .jp-product-card:hover .jp-product-img { 
+        transform: scale(1.05); 
+    }
+}
+
+/* 반응형 */
+@media (max-width: 900px) { 
+    .jp-product-grid { grid-template-columns: repeat(2, 1fr); } 
+}

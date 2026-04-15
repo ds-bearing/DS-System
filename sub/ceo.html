@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no, address=no, email=no">
+  <title>DS System</title>
+  <!-- CSS 연결 -->
+  <link rel="stylesheet" href="../css/ceo.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/footer.css">
+</head>
+
+<body>
+    <header class="header">
+    <div class="header-wrap">
+      <div class="logo-box">
+        <a href="../index.html" class="logo">DS System</a>
+      </div>
+      <button class="hamburger" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="main-menu">
+        <li>
+          <a href="#">회사소개 <span class="arrow">▼</span></a>
+          <ul class="sub">
+            <li><a href="ceo.html">CEO 인사말</a></li>
+            <li><a href="ceo.html#location">오시는길</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">제품소개 <span class="arrow">▼</span></a>
+          <ul class="sub">
+            <li><a href="sbc.html">SBC LINEAR</a></li>
+            <li><a href="tbi.html">TBI</a></li>
+            <li><a href="pmi.html">PMI</a></li>
+            <li><a href="cpc.html">CPC</a></li>
+            <li><a href="thk.html">THK</a></li>
+            <li><a href="re.html">REXROTH</a></li>
+            <li><a href="sp.html">스피드가이드</a></li>
+            <li><a href="cp.html">커플링</a></li>
+            <li><a href="ro">로크너트</a></li>
+            <li><a href="pa.html">파워록</a></li>
+            <li><a href="gi.html">기타취급품목</a></li>
+          </ul>
+        </li>
+        <li><a href="#">CAD 자료실 <span class="arrow">▼</span></a>
+        <ul class="sub">
+            <li><a href="cad.html?category=lm_guide">LM가이드 CAD</a></li>
+            <li><a href="cad.html?category=ball_screw">볼스크류 CAD</a></li>
+            <li><a href="cad.html?category=git">기타제품 CAD</a></li>
+          </ul></li>
+        <li><a href="#" class="kt">문의하기 <span class="arrow">▼</span></a></li>
+      </ul>
+    </div>
+    <div class="dropdown-bg"></div>
+  </header>
+
+  <section class="sub-page">
+    <div class="hero"></div>
+    <div class="container">
+      <div class="title">CEO 인사말</div>
+      <div class="line"></div>
+      <!-- 탭 -->
+      <div class="tabs">
+        <div class="tab-btn active" data-tab="greeting">CEO 인사말</div>
+        <div class="tab-btn" data-tab="location">오시는길</div>
+      </div>
+      <!-- 인사말 -->
+      <div class="tab-content active" id="greeting">
+        <div class="greeting-wrap">
+          <div class="img-box"></div>
+          <div class="text-box">
+            <h2>최고의 베어링회사</h2>
+            <p class="greeting-text">
+              안녕하세요. 저희 <strong>동서시스템베어링</strong> 홈페이지를 찾아주셔서 대단히 감사합니다.<br>
+              동서시스템 베어링은 
+              <strong>NSK, THK, NTN, PMI, TBI, IKO, FAG, KOYO, SBC, STAR, INA 각종 베어링, 볼스크류 전문회사</strong>
+              입니다.<br>
+              고품질의 다양한 브랜드의 제품 공급이 가능하며, 고객만족을 위해 최선을 다하고 있습니다.<br>
+              정직하고 신뢰받는 동서시스템 베어링은 고객과 함께 성장하는 좋은 파트너가 되도록 노력하겠습니다.<br>
+              감사합니다.
+            </p>
+            <div class="signature">
+              <strong>동서시스템 대표 이원우</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 오시는길 -->
+      <div class="tab-content" id="location">
+        <div class="map-box">
+          <iframe 
+            src="https://www.google.com/maps?q=경기도%20시흥시%20공단1대로%20204&output=embed"
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+          </iframe>
+        </div>
+        <div class="info">📍 경기도 시흥시 공단1대로 204, 28-115</div>
+        <div class="info">🚌 공구상가.문화발전소창공 정류장 하차 - 도보 5분 , 유통상가 정류장 하차 - 도보 5분</div>
+        <div class="info">🚆 정왕역 4호선 하차 - 정왕역환승센터 정류장 11-A승차 - 유통상가 정류장 하차 - 도보 5분</div>
+      </div>
+    </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <p class="company">DS SYSTEM | 대표 : 이원우</p>
+    <p class="address">주소 : 경기도 시흥시 공단1대로 204,28-115</p>
+    <p class="contact">Tel : 031-430-7980 | Email : dssst201@naver.com</p>
+    <p class="copyright">© DS System</p>
+  </div>
+</footer>
+
+</body>
+<!-- JS 연결 -->
+<script src="../js/ceo.js"></script>
+<script src="../js/header.js"></script>
+</html>
